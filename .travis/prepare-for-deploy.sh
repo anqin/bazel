@@ -55,4 +55,6 @@ function copy_to_upload_dir() {
 if [ "${TRAVIS_OS_NAME-}" = "linux" ]; then
   create_zip
   copy_to_upload_dir
+else
+  mkdir -p ci
 fi
