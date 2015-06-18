@@ -23,3 +23,5 @@ deploy:
   local_dir: ci
   acl: public-read
   skip_cleanup: true
+  on:
+    branch: osx-ci
